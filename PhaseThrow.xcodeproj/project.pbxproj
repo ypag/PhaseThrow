@@ -13,6 +13,8 @@
 		017E1FBF1A649BD9002A7750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017E1FBE1A649BD9002A7750 /* Images.xcassets */; };
 		017E1FC21A649BD9002A7750 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017E1FC01A649BD9002A7750 /* LaunchScreen.xib */; };
 		017E1FCE1A649BD9002A7750 /* PhaseThrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E1FCD1A649BD9002A7750 /* PhaseThrowTests.swift */; };
+		017E1FD81A649E8D002A7750 /* NounDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E1FD71A649E8D002A7750 /* NounDictionary.swift */; };
+		017E1FDA1A649F17002A7750 /* nounlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 017E1FD91A649F17002A7750 /* nounlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		017E1FC71A649BD9002A7750 /* PhaseThrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhaseThrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		017E1FCC1A649BD9002A7750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		017E1FCD1A649BD9002A7750 /* PhaseThrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseThrowTests.swift; sourceTree = "<group>"; };
+		017E1FD71A649E8D002A7750 /* NounDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NounDictionary.swift; sourceTree = "<group>"; };
+		017E1FD91A649F17002A7750 /* nounlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nounlist.txt; path = ../../../nounlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		017E1FB41A649BD9002A7750 /* PhaseThrow */ = {
 			isa = PBXGroup;
 			children = (
+				017E1FD91A649F17002A7750 /* nounlist.txt */,
 				017E1FB71A649BD9002A7750 /* AppDelegate.swift */,
 				017E1FB91A649BD9002A7750 /* ViewController.swift */,
 				017E1FBB1A649BD9002A7750 /* Main.storyboard */,
+				017E1FD71A649E8D002A7750 /* NounDictionary.swift */,
 				017E1FBE1A649BD9002A7750 /* Images.xcassets */,
 				017E1FC01A649BD9002A7750 /* LaunchScreen.xib */,
 				017E1FB51A649BD9002A7750 /* Supporting Files */,
@@ -194,6 +200,7 @@
 			files = (
 				017E1FBD1A649BD9002A7750 /* Main.storyboard in Resources */,
 				017E1FC21A649BD9002A7750 /* LaunchScreen.xib in Resources */,
+				017E1FDA1A649F17002A7750 /* nounlist.txt in Resources */,
 				017E1FBF1A649BD9002A7750 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017E1FD81A649E8D002A7750 /* NounDictionary.swift in Sources */,
 				017E1FBA1A649BD9002A7750 /* ViewController.swift in Sources */,
 				017E1FB81A649BD9002A7750 /* AppDelegate.swift in Sources */,
 			);
